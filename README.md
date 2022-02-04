@@ -1,6 +1,14 @@
 # SAAVN
 # SAAVN Code release for paper "Sound Adversarial Audio-Visual Navigation,ICLR2022" (In PyTorch)
 
+---------------------------------------------------------------------------------------------------
+
+## These code is under cleaning! Some of bugs maybe happen, please tell me if you have any trouble.
+
+## Thanks
+
+These codes are based on the [SoundSpaces](https://github.com/facebookresearch/sound-spaces) code base.
+
 ## Usage
 This repo supports AudioGoal Task on Replica and Matterport3D datasets.
 
