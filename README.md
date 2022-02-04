@@ -25,11 +25,13 @@ python main.py --default av_nav --run-type eval --exp-config [exp_config_file] -
 
 Note: [exp_config_file] is the main parameter configuration file of the experiment, while [tag_config_file] is special parameter configuration file for abalation experiments.
 
-# Cite
-
+## Citation
+If you use this model in your research, please cite the following paper:
+```
 @inproceedings{YinfengICLR2022saavn,
 	title = {Sound Adversarial Audio-Visual Navigation},
 	author = {Yinfeng Yu, Wenbing Huang, Fuchun Sun, Changan Chen, Yikai Wang, Xiaohong Liu},
 	year = {2022},
-    booktitle={ICLR},
+        booktitle={ICLR},
 }
+```
