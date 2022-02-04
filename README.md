@@ -1,5 +1,5 @@
 # SAAVN
-# SAAVN Code release for paper "Sound Adversarial Audio-Visual Navigation" (In PyTorch)
+# SAAVN Code release for paper "Sound Adversarial Audio-Visual Navigation,ICLR2022" (In PyTorch)
 
 ## Usage
 This repo supports AudioGoal Task on Replica and Matterport3D datasets.
