@@ -3,7 +3,7 @@
 
 ---------------------------------------------------------------------------------------------------
 
-## These code is under cleaning! Some of bugs maybe happen, please tell me if you have any trouble.
+## These code are under cleaning! Some of bugs maybe happen, please tell me if you have any trouble.
 
 ## Thanks
 
