@@ -1,6 +1,36 @@
 # SAAVN
 # SAAVN Code release for paper "Sound Adversarial Audio-Visual Navigation,ICLR2022" (In PyTorch)
 ## What we do?
+### Motivation
+Contribution:
+- Build an audio simulation platform SoundSpaces[1] to enable audio-visual navigation for two visually realistic 3D environments: Replica[2] and Matterport3D[3].
+- Proposed AudioGoal navigation Task:This task requires a robot equipped with a camera and microphones to interact with the environment and navigate to a sounding object. 
+- SoundSpaces dataset: SoundSpaces is a first-of-its-kind dataset of audio renderings based on geometrical acoustic simulations for two sets of publicly available 3D environments: Replica[2] and Matterport3D[3].
+Sumary:SoundSpaces is focus on audio-visual navigation problem in the acoustically clean or simple environment:
+- The number of target sound sources is one. 
+- The position of the target sound source is fixed in an episode of a scene. 
+- The volume of the target sound source is the same in all episodes of all scenes, and there is no change.
+The sound in the setting of SoundSpaces is  acoustically clean or simple.
+
+### Challenge
+However,there are many situations different from the setting of SoundSpaces , which there are some non-target sounding objects in the scene:
+For example, a kettle in the kitchen beeps to tell the robotthat the water is boiling, and the robot in the living room needs to navigate to the kitchen and turnoff the stove; while in the living room, two children are playing a game, chuckling loudly fromtime to time.
+#### Challenge 1: 
+Can an agent still find its way to the destination without being distracted by all non-target sounds around the agent? 
+
+non-target sounding objects:
+- not deliberately embarrassing the robot: someone walking and chatting past the robot
+- deliberately embarrassing the robot: someone blocking the robot forwarding
+- 
+#### Challenge 2: 
+How to model non-target sounding objects in simulator or in reality?  There are no such setting existed!
+
+### Solution policy
+- Worst case strategy: Regard non-target sounding objects as deliberately embarrassing the robot,we called them as sound attacker.
+- Simplify:Only consider the simplest situation,one sound attacker.
+- Zero sum game:One agent,one sound attacker.
+
+
 
 ![SAAVN](saavn.png)
 ---------------------------------------------------------------------------------------------------
