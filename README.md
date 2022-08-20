@@ -78,9 +78,20 @@ Note: [exp_config_file] is the main parameter configuration file of the experime
 If you use this model in your research, please cite the following paper:
 ```
 @inproceedings{YinfengICLR2022saavn,
-	title = {Sound Adversarial Audio-Visual Navigation},
-	author = {Yinfeng Yu, Wenbing Huang, Fuchun Sun, Changan Chen, Yikai Wang, Xiaohong Liu},
-	year = {2022},
-        booktitle={ICLR},
+  author    = {Yinfeng Yu and
+               Wenbing Huang and
+               Fuchun Sun and
+               Changan Chen and
+               Yikai Wang and
+               Xiaohong Liu},
+  title     = {Sound Adversarial Audio-Visual Navigation},
+  booktitle = {The Tenth International Conference on Learning Representations, {ICLR}
+               2022, Virtual Event, April 25-29, 2022},
+  publisher = {OpenReview.net},
+  year      = {2022},
+  url       = {https://openreview.net/forum?id=NkZq4OEYN-},
+  timestamp = {Thu, 18 Aug 2022 18:42:35 +0200},
+  biburl    = {https://dblp.org/rec/conf/iclr/Yu00C0L22.bib},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
 }
 ```
