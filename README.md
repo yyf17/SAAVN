@@ -15,6 +15,7 @@ Sumary:SoundSpaces is focus on audio-visual navigation problem in the acoustical
 - The number of target sound sources is one. 
 - The position of the target sound source is fixed in an episode of a scene. 
 - The volume of the target sound source is the same in all episodes of all scenes, and there is no change.
+
 All in all, the sound in the setting of SoundSpaces is  acoustically clean or simple.
 
 ### Challenge
