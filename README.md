@@ -1,10 +1,6 @@
 # SAAVN
 # SAAVN Code release for paper "Sound Adversarial Audio-Visual Navigation,ICLR2022" (In PyTorch)
 
-## What we do?
-
-### Motivation
-
 Contribution of SoundSpaces:
 - Build an audio simulation platform SoundSpaces[1] to enable audio-visual navigation for two visually realistic 3D environments: Replica[2] and Matterport3D[3].
 - Proposed AudioGoal navigation Task:This task requires a robot equipped with a camera and microphones to interact with the environment and navigate to a sounding object. 
@@ -18,7 +14,9 @@ Sumary:SoundSpaces is focus on audio-visual navigation problem in the acoustical
 
 All in all, the sound in the setting of SoundSpaces is  acoustically clean or simple.
 
-### Challenge
+## What we do?
+
+### Motivation and Challenge
 
 However,there are many situations different from the setting of SoundSpaces , which there are some non-target sounding objects in the scene:
 For example, a kettle in the kitchen beeps to tell the robotthat the water is boiling, and the robot in the living room needs to navigate to the kitchen and turnoff the stove; while in the living room, two children are playing a game, chuckling loudly fromtime to time.
