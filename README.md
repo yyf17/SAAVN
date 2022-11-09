@@ -9,13 +9,13 @@ Contribution of SoundSpaces:
 - Build an audio simulation platform SoundSpaces[1] to enable audio-visual navigation for two visually realistic 3D environments: Replica[2] and Matterport3D[3].
 - Proposed AudioGoal navigation Task:This task requires a robot equipped with a camera and microphones to interact with the environment and navigate to a sounding object. 
 - SoundSpaces dataset: SoundSpaces is a first-of-its-kind dataset of audio renderings based on geometrical acoustic simulations for two sets of publicly available 3D environments: Replica[2] and Matterport3D[3].
-### Limitation of SoundSpaces
+### Characteristic of SoundSpaces
 
 Sumary:SoundSpaces is focus on audio-visual navigation problem in the acoustically clean or simple environment:
 - The number of target sound sources is one. 
 - The position of the target sound source is fixed in an episode of a scene. 
 - The volume of the target sound source is the same in all episodes of all scenes, and there is no change.
-The sound in the setting of SoundSpaces is  acoustically clean or simple.
+All in all, the sound in the setting of SoundSpaces is  acoustically clean or simple.
 
 ### Challenge
 
